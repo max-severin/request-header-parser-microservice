@@ -21,7 +21,7 @@ app.get('/', (req, res) => res.sendFile(`${__dirname}/view/index.html`));
 app.get('/api/whoami', (req, res) => {
   res.json({
     // ipaddress: '',
-    // language: '',
+    language: req.headers['accept-language'],
     software: req.headers['user-agent'],
   });
 });
