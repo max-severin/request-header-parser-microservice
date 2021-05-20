@@ -1,14 +1,14 @@
 {
   "name": "request-header-parser-microservice",
   "version": "1.0.0",
-  "description": "",
+  "description": "API project for FCC",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Max Severin",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
